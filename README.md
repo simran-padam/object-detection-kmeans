@@ -18,7 +18,7 @@
 
 *The following result depicts the segmented image after running kmeans.*
 
-<img src="/Users/simranpadam/Documents/2023/Fall 2023/CompVis (GR5293)/HW1/kmeans-image.png"  width="400" height="300">
+<img src="https://raw.githubusercontent.com/simran-padam/object-detection-kmeans/main/kmeans-image.png"  width="400" height="300">
 
 *source: <https://docs.opencv.org/4.x/d1/d5c/tutorial_py_kmeans_opencv.html>*
 
