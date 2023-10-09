@@ -48,3 +48,6 @@ Please keep in mind while implementing kmeans clustering:
 * Choosing lower value of k is also prone to affect the performance. For ex: if there are more colors in an image, a lower value of k might not result in good segmentation. K-means is ill-suited for tasks where the number of objects is not known beforehand and sometimes choosing the right k can be challenging.
 * kmeans can falter significantly if the data points are high as it maps each point with the other data point to calculate distance, the processing time will be high and the code might fail to run.
 * Enabling cv.KMEANS_RANDOM_CENTERS flag results in new output each run, reduces the chances of reproducibility, and this can potentially impact the model performance.
+
+Citation:
+*Data Source: https://www.kaggle.com/datasets/andrewmvd/road-sign-detection*
