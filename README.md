@@ -50,4 +50,6 @@ Please keep in mind while implementing kmeans clustering:
 * Enabling cv.KMEANS_RANDOM_CENTERS flag results in new output each run, reduces the chances of reproducibility, and this can potentially impact the model performance.
 
 Citation:
-*Data Source: https://www.kaggle.com/datasets/andrewmvd/road-sign-detection*
+* *Data Source: https://www.kaggle.com/datasets/andrewmvd/road-sign-detection*
+
+* https://docs.opencv.org/4.x/d1/d5c/tutorial_py_kmeans_opencv.html
