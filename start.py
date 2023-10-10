@@ -104,8 +104,8 @@ if __name__ == "__main__":
     start_time = time.time()
     counter = 0 
 
-    #dir_path = './images/'
-    dir_path = '/Users/simranpadam/Documents/2023/Fall 2023/CompVis (GR5293)/HW1/images/'
+    dir_path = './images/'
+
     for i in range(1, 25):
         img_name = f'stop{i}.png'
         img_path = os.path.join(dir_path, img_name)
@@ -114,7 +114,7 @@ if __name__ == "__main__":
         # Get the coordinators of the box
         xmin, ymin, xmax, ymax = get_box(img)
         cv2.rectangle(img, (xmin, ymin), (xmax, ymax), (255, 0, 0), 2)
-        output_path = f'/Users/simranpadam/Documents/2023/Fall 2023/CompVis (GR5293)/HW1/results/{img_name}'
+        output_path = f'./results/{img_name}'
         cv2.imwrite(output_path, img)
                
     end_time = time.time() #takes 28s to run
